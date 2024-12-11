@@ -38,7 +38,7 @@ public class Ejercicio2_Avanzado {
 		for(int i=0;i<jugador.length;i++){
 			jugador[i]=jugador2.charAt(i);
 		}
-		while(jugador!=contraseña){
+		while(jugador.equals(contraseña)){
 			for(int i=0;i<jugador.length;i++){
 			if(jugador[i]==contraseña[i]){
 				mostrada[i]=contraseña[i];
