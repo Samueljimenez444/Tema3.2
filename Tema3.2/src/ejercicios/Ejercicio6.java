@@ -31,7 +31,7 @@ public class Ejercicio6 {
 	public static void main(String[] args) {
 		// Variable para almacenar la frase del usuario
 		String frase;
-		//Creacion Scanner
+		// Creacion Scanner
 		Scanner lectura = new Scanner(System.in);
 		System.out.println("Introduce una frase");
 		// Definimos la frase en funcion del input del usuario
