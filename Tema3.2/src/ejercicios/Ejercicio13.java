@@ -11,7 +11,7 @@ public class Ejercicio13 {
 
 		if (Arrays.equals(palabra1, palabras2)) {
 			anagrama = true;
-
+			
 		}
 		return anagrama;
 	}
